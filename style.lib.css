@@ -1,0 +1,45 @@
+body {
+  background-color: #84e6ea;
+  width: 90%;
+}
+
+#data input {
+  width: 200px;
+  border: 1.5px solid #777;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 6px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#data {
+  padding: 40px;
+}
+
+input {
+  width: 450px !important;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  table {
+    width: 100% !important;
+    font-size: 10px;
+  }
+
+  table button {
+    width: auto;
+  }
+
+}
